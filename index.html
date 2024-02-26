@@ -9,6 +9,36 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <!-- MODAL BOX -->
+    <input type="checkbox" name="" id="show-hide-forms">
+    <div class="forms-wrapper"> 
+        <label for="show-hide-forms" class="x-btn">
+            &#10005;
+        </label>
+        <input type="checkbox" id="show-form" />
+        <div class="show-btns-wrapper">
+            <label for="show-form" class="show-form-btn show-signup-form">Sign Up</label>
+            <label for="show-form" class="show-form-btn show-login-form">Log In</label>
+        </div>
+        <form action="" class="signup-form">
+            <h3 class="form-heading">Sign Up</h3>
+            <div class="fullname-inputs-wrapper">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Second Name">
+            </div>
+            <input type="text" class="form-input" placeholder="Username">
+            <input type="email" class="form-input" placeholder="Email Address">
+            <input type="password" class="form-input" placeholder="Password">
+            <input type="submit" value="SIGN UP" class="form-btn">
+        </form>
+        <form action="" class="login-form">
+            <h3 class="form-heading">Log In</h3>
+            <input type="email" class="form-input" placeholder="Email Address">
+            <input type="password" class="form-input" placeholder="Password">
+            <input type="submit" value="LOG IN" class="form-btn">
+        </form>
+    </div>
+    <!-- END OF MODAL BOX -->
     <div class="container">
         <!-- NAVBAR -->
         <ul class="social-icons">
@@ -38,7 +68,9 @@
                 <li class="first-nav-item">
                     <a href="#" class="first-nav-link">
                         <i class="fas fa-sign-in-alt"></i>
-                        Sign Up / Log In
+                        <label for="show-hide-forms">
+                            Sign Up / Log In
+                        </label>
                     </a>
                 </li>
                 <li class="first-nav-item">
@@ -352,6 +384,45 @@
             </section>
         <!-- END OF BESTSELLING FURNITURE -->
 
+        <!-- GALLERY -->
+        <section class="gallery">
+            <img src="images/gallery-img-1.jpeg" class="gallery-img gallery-img-1">
+            <img src="images/gallery-img-2.jpeg" class="gallery-img gallery-img-2">
+            <img src="images/gallery-img-3.jpeg" class="gallery-img gallery-img-3">
+            <img src="images/gallery-img-4.jpeg" class="gallery-img gallery-img-4">
+            <img src="images/gallery-img-5.jpeg" class="gallery-img gallery-img-5">
+            <img src="images/gallery-img-6.jpeg" class="gallery-img gallery-img-6">
+            <img src="images/gallery-img-7.jpeg" class="gallery-img gallery-img-7">
+            <img src="images/gallery-img-8.jpeg" class="gallery-img gallery-img-8">
+            <img src="images/gallery-img-9.jpeg" class="gallery-img gallery-img-9">
+            <img src="images/gallery-img-10.jpeg" class="gallery-img gallery-img-10">
+            <img src="images/gallery-img-11.jpeg" class="gallery-img gallery-img-11">
+            <img src="images/gallery-img-12.jpeg" class="gallery-img gallery-img-12">
+            
+            
+        </section>
+        <!-- END OF GALLERY -->
+
+        <!-- CONTACT -->
+        <section class="contact">
+            <h1 class="contact-heading">
+                Join us and be in the know
+            </h1>
+            <form class="contact-form">
+                <input type="text" class="contact-input" placeholder="Enter Email Address">
+                <input type="submit" class="contact-btn" value="Sign Up" />
+            </form>
+        </section>
+        
+        <!-- END OF CONTACT -->
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <p>
+                &copy; 2024 by Furniture. All rights reserved.
+            </p>
+        </footer>
+        <!-- END OF FOOTER -->
     </div>
 
 
